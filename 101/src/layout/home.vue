@@ -1,15 +1,12 @@
 <template>
   <div>
-    <p>
-        Copyright@2023-2025codingzheng.AllRightsReserved
-    </p>
+    
   </div>
 </template>
-
 <script>
 
   export default {
-    name:'CopyRight',
+    name:'',
     props:[''],
     data () {
       return {
@@ -31,7 +28,5 @@
 
 </script>
 <style lang='less' scoped>
-p {
-  color: #999aaa
-}
+
 </style>
