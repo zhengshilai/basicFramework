@@ -12,4 +12,4 @@ if (process.env.NODE_ENV === 'development') {
         BASE_PORT: ''
     }
 }
-export { BASE_CONFIG };
+module.exports = BASE_CONFIG

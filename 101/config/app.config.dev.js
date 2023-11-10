@@ -1,7 +1,7 @@
-const { proxyMap } = import('./proxy.confog')
+const { proxyMap } = require('./proxy.config.js')
 const proConfig = {
     devServer: { 
-        Proxy: proxyMap
+        proxy: proxyMap
     }
 }
 module.exports = proConfig
